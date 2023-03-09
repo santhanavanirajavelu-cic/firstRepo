@@ -35,6 +35,7 @@ const client = Client.forTestnet().setOperator(account1Id, account1Key);
 
 const supplyKey = PrivateKey.generate();
 
+// test
 async function main() {
 	//CREATE FUNGIBLE TOKEN (STABLECOIN)
 	let tokenCreateTx = await new TokenCreateTransaction()
